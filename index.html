@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <header class="header">
+        <h1 id="title" class="text-center">Work Culture Survey <span class="copyrigth">&copy</span></h1>
+        <p id="description" class="description text-center">
+            We work to improve your life.
+        </p>
+      </header>
+    <div class="container">
+      <form id="survey-form">
+        <div class="credentials">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required="">
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+            <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
+          </div>
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your current role?</p>
+          <select id="dropdown" name="role" class="form-control" required="">
+            <option disabled="" selected="" value="">Select current role</option>
+            <option value="part-time">Part Time Job</option>
+            <option value="full-time">Full Time Job</option>
+            <option value="remote">Remote Job</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Am I satisfied with the work culture?</p>
+          <label>
+            <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">Definitely</label>
+          <label>
+            <input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe</label>
+
+          <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not sure</label>
+        </div>
+        <div class="form-group">
+          <p>
+            What department do you work in?
+            <span class="clue"></span>
+          </p>
+
+          <label><input name="prefer" value="front-end-projects" type="radio" class="input-radio">Accounting</label>
+          <label>
+            <input name="prefer" value="administration" type="radio" class="input-radio">Administration</label>
+          <label><input name="prefer" value="customer-service" type="radio" class="input-radio">Customer Service</label>
+          <label><input name="prefer" value="marketing" type="radio" class="input-radio">Marketing</label>
+          <label><input name="prefer" value="operations" type="radio" class="input-radio">Operations</label>
+          <label><input name="prefer" value="finance" type="radio" class="input-radio">Finance</label>
+          <label><input name="prefer" value="sales" type="radio" class="input-radio">Sales</label>
+          <label><input name="prefer" value="engineering" type="radio" class="input-radio">Engineering</label>
+          <label><input name="prefer" value="public-relations" type="radio" class="input-radio">Public Relations</label>
+          <label><input name="prefer" value="product-development" type="radio" class="input-radio">Product Development</label>
+          <label><input name="prefer" value="investigation-development" type="radio" class="input-radio">Investigation and Development</label>
+        </div>
+        <div class="form-group">
+          <p>Is my organization committed to diversity and inclusion?</p>
+          <select id="most-like" name="mostLike" class="form-control" required="">
+            <option disabled="" selected="" value="">Select an option</option>
+            <option value="totally-agree">Totally Agree</option>
+            <option value="agree">Agree</option>
+            <option value="neither">Neither Agree or Disagree</option>
+            <option value="disagre">Disagree</option>
+            <option value="totally disagree">Totally Disagree</option>
+          </select>
+        </div>
+        <div class="form-group">
+            <p>Does my organization operate in a socially responsible manner?</p>
+            <select id="most-like" name="mostLike" class="form-control" required="">
+              <option disabled="" selected="" value="">Select an option</option>
+              <option value="totally-agree">Totally Agree</option>
+              <option value="agree">Agree</option>
+              <option value="neither">Neither Agree or Disagree</option>
+              <option value="disagre">Disagree</option>
+              <option value="totally disagree">Totally Disagree</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>The work in my organization has a positive impact on people's lives?</p>
+            <select id="most-like" name="mostLike" class="form-control" required="">
+              <option disabled="" selected="" value="">Select an option</option>
+              <option value="totally-agree">Totally Agree</option>
+              <option value="agree">Agree</option>
+              <option value="neither">Neither Agree or Disagree</option>
+              <option value="disagre">Disagree</option>
+              <option value="totally disagree">Totally Disagree</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>I understand that my work impacts the business objectives of the organization?</p>
+            <select id="most-like" name="mostLike" class="form-control" required="">
+              <option disabled="" selected="" value="">Select an option</option>
+              <option value="totally-agree">Totally Agree</option>
+              <option value="agree">Agree</option>
+              <option value="neither">Neither Agree or Disagree</option>
+              <option value="disagre">Disagree</option>
+              <option value="totally disagree">Totally Disagree</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>My organization has a safe work environment that seeks the well-being of people?</p>
+            <select id="most-like" name="mostLike" class="form-control" required="">
+              <option disabled="" selected="" value="">Select an option</option>
+              <option value="totally-agree">Totally Agree</option>
+              <option value="agree">Agree</option>
+              <option value="neither">Neither Agree or Disagree</option>
+              <option value="disagre">Disagree</option>
+              <option value="totally disagree">Totally Disagree</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <p>Do you want to suscribe Work Culture Survey <span class="copyrigth">&copy</span> newsletter?</p>
+          <label>
+            <input name="newsletter" value="news" type="checkbox" class="input-checkbox" checked="">Monthly</label>
+            <label>
+              <input name="newsletter" value="news" type="checkbox" class="input-checkbox">Weekly</label>
+        </div>
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  
+
+    </body>
+</html>
